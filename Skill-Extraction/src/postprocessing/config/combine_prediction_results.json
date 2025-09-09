@@ -1,0 +1,7 @@
+{
+  "base_file": "data/test.jsonl",
+  "input_file": "data/test.json",
+  "prediction_file":  "saves/Meta-Llama-3-8B-Instruct/lora/results/generated_predictions.jsonl",
+  "output_file": "saves/Meta-Llama-3-8B-Instruct/lora/results/processed_predictions.jsonl",
+  "tokenizer": "white_space"
+}
