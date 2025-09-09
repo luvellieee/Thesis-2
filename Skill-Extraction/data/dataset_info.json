@@ -1,0 +1,26 @@
+{
+    "skillspan_test": {
+    "file_name": "test.json",
+        "columns": {
+            "prompt": "instruction",
+            "query": "input",
+            "response": "output"
+        }
+    },
+    "skillspan_dev": {
+    "file_name": "validation.json",
+        "columns": {
+            "prompt": "instruction",
+            "query": "input",
+            "response": "output"
+        }
+    },
+    "skillspan_train": {
+    "file_name": "train.json",
+        "columns": {
+            "prompt": "instruction",
+            "query": "input",
+            "response": "output"
+        }
+    }
+}
