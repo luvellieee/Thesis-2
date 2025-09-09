@@ -1,0 +1,15 @@
+torch==2.2.1
+git+https://github.com/hiyouga/LLaMA-Factory.git@v0.8.3
+git+https://github.com/urchade/GLiNER.git@v0.2.9
+nervaluate==0.2.0
+numpy==1.26.3
+pandas==2.2.1
+tqdm==4.66.1
+spacy==3.7.4
+fuzzywuzzy==0.18.0
+ray[tune]==2.34.0
+wandb==0.16.2
+jieba==0.42.1
+nltk==3.9.1
+rouge_chinese==1.0.3
+python-Levenshtein==0.25.1
