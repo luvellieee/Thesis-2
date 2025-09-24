@@ -1,0 +1,5 @@
+{
+  "annotation_file": "../../data/test.jsonl",
+  "output_file": "../../data/test.json",
+  "labels":  "[\"SKILL\", \"KNOWLEDGE\"]"
+}
