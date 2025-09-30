@@ -1,0 +1,31 @@
+### model
+model_name_or_path: meta-llama/Meta-Llama-3-8B-Instruct
+
+### method
+stage: sft
+do_predict: true
+finetuning_type: lora
+
+### dataset
+dataset_dir: data
+eval_dataset: skillspan_test
+template: llama3
+cutoff_len: 2000
+max_samples: 100000
+overwrite_cache: true
+preprocessing_num_workers: 16
+
+### output
+adapter_name_or_path: saves/Meta-Llama-3-8B-Instruct/lora/sft
+output_dir: saves/Meta-Llama-3-8B-Instruct/lora/results
+overwrite_output_dir: true
+
+### eval
+bf16: true
+per_device_eval_batch_size: 8
+ddp_timeout: 180000000
+flash_attn: auto
+predict_with_generate: true
+max_new_tokens: 1000
+top_p: 0.95
+temperature: 0.01
