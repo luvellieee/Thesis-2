@@ -50,7 +50,7 @@ class data_preparation:
         else:
             self.labels = labels
         self.labels = eval(self.labels)
-        self.annotation_data = pd.read_json(path_or_buf=annotation_file, lines=True)
+        self.annotation_data = pd.read_json(path_or_buf=annotation_file, lines=True, encoding='utf-8', encoding_errors='replace')
         self.instruction_prompt = INSTRUCTION_PROMPT
 
     def label_and_context_list_data(self):
