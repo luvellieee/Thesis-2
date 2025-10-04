@@ -97,7 +97,8 @@ class data_post_processing:
 
                     prodigy_element = {'text': text, 'tokens': json_tokens, 'spans': json_spans}
 
-                    json.dump(prodigy_element, f, ensure_ascii=False)
+                    with open(os.path.join(self.output_directory, f"{split}.jsonl"), "w", encoding="utf-8") as f:
+                        json.dump(prodigy_element, f, ensure_ascii=False)
                     f.write('\n')
 
 
