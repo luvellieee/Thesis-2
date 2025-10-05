@@ -96,9 +96,10 @@ class data_post_processing:
                     text = html.unescape(text)
 
                     prodigy_element = {'text': text, 'tokens': json_tokens, 'spans': json_spans}
-
-                    with open(os.path.join(self.output_directory, f"{split}.jsonl"), "w", encoding="utf-8") as f:
-                        json.dump(prodigy_element, f, ensure_ascii=False)
+                    
+                    for split in ['train', 'validation', 'test']:
+                        with open(os.path.join(self.output_directory, f"{split}.jsonl"), "w", encoding="utf-8") as f:
+                            json.dump(prodigy_element, f, ensure_ascii=False)
                     f.write('\n')
 
 
