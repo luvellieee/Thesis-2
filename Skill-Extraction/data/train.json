@@ -1,0 +1,7 @@
+[
+  {
+    "instruction": "Your job is to extract skills and knowledge from given text.",
+    "input": "** Please note that the applicant will be contacted if the assessment committee requires further documentation . **",
+    "output": "{\"SKILL\": [], \"KNOWLEDGE\": []}"
+  }
+]

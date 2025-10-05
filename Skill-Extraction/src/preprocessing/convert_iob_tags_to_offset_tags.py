@@ -100,7 +100,7 @@ class data_post_processing:
                     for split in ['train', 'validation', 'test']:
                         with open(os.path.join(self.output_directory, f"{split}.jsonl"), "w", encoding="utf-8") as f:
                             json.dump(prodigy_element, f, ensure_ascii=False)
-                    f.write('\n')
+                            f.write('\n')
 
 
 if __name__ == "__main__":

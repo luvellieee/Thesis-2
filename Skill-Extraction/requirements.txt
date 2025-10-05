@@ -13,3 +13,4 @@ jieba==0.42.1
 nltk==3.9.1
 rouge_chinese==1.0.3
 python-Levenshtein==0.25.1
+# also installed transformers==4.56.2 (latest i think) so i'm gonna update this one in a while
