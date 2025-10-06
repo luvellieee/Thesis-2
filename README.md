@@ -78,3 +78,11 @@ wandb login
 ```
 wandb login
 ```
+
+### Data Preparation (skip this bc i finished it already)
+
+### Training
+run (in bash)
+```
+Skill-Extraction/src/training.sh
+```
