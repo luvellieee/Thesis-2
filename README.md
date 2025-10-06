@@ -55,3 +55,18 @@ login() [tap enter]
 ```
 hf auth whoami
 ```
+
+### Wandb
+1. Sign up in wandb website
+2. In dashboard, click profile
+3. Click API key
+4. Copy api key
+5. Install wandb (in bash)
+```
+pip install wandb
+```
+6. Login in wandb (in bash)
+```
+wandb login
+```
+7. Paste API key
