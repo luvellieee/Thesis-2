@@ -7,6 +7,7 @@ The project investigates whether skills and a country’s economic classificatio
 # Get Started
 
 ### Clone Repository
+1. Open cmd then run:
 ```
 git clone https://github.com/luvellieee/Thesis-2.git
 ```
@@ -27,5 +28,18 @@ cd [path to the thesis folder]
 source .venv/Scripts/activate
 ```
 
-
-### 
+### Login to huggingface
+1. In the huggingface website, sign up
+2. After you have already signed up, click your profile in the upper-right corner
+3. Click on 'Access Token'
+4. Click on '+ Create new token'
+5. Name it however u want
+6. Choose all under 'Repositories'
+7. Click 'create token'
+8. Copy and paste the token somewhere safe (you're gonna use it in the future)
+9. In Git Bash, run:
+```
+from huggingface_hub import login
+login() [tap enter]
+[paste the api key]
+```
