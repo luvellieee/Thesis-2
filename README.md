@@ -29,17 +29,29 @@ source .venv/Scripts/activate
 ```
 
 ### Login to huggingface
-1. In the huggingface website, sign up
-2. After you have already signed up, click your profile in the upper-right corner
-3. Click on 'Access Token'
-4. Click on '+ Create new token'
-5. Name it however u want
-6. Choose all under 'Repositories'
-7. Click 'create token'
-8. Copy and paste the token somewhere safe (you're gonna use it in the future)
-9. In Git Bash, run:
+1. Install huggingface
+```
+pip install huggingface_hub
+```
+2. To check if you have successfuly installed huggingface, run:
+```
+pip show huggingface_hub
+```
+3. In the huggingface website, sign up
+4. After you have already signed up, click your profile in the upper-right corner
+5. Click on 'Access Token'
+6. Click on '+ Create new token'
+7. Name it however u want
+8. Choose all under 'Repositories'
+9. Click 'create token'
+10. Copy and paste the token somewhere safe (you're gonna use it in the future)
+11. In Git Bash, run:
 ```
 from huggingface_hub import login
 login() [tap enter]
 [paste the api key]
+```
+12. To check if the login was successful, run:
+```
+hf auth whoami
 ```
