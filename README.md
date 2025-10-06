@@ -3,3 +3,10 @@ This repository hosts the code, data, and documentation for a thesis project exa
 
 # Project Overview
 The project investigates whether skills and a country’s economic classification influence salaries. Using natural language processing (NLP) to extract skills from datasets like job postings or resumes, it categorizes countries by economic development (e.g., GDP-based tiers) and applies regression models to quantify their effects on earnings.
+
+# Get Started
+
+### Clone Repo
+```
+git clone https://github.com/luvellieee/Thesis-2.git
+```
