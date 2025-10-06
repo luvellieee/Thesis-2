@@ -13,16 +13,15 @@ git clone https://github.com/luvellieee/Thesis-2.git
 ```
 
 ### Setting up Virtual Environment
-1. Open cmd
-2. Install python version 3.11
-3. Open the cloned folder in vscode, then create a virtual environment. In search bar, click on
+1. Install python3.11 from the website
+2. Open the cloned folder in vscode, then create a virtual environment. In search bar, click on
 ```
 Show and run commands
 Python: Create Environment
 Venv
 Python 3.11
 ```
-4. Once you have successfully set up the folder for your virtual environment, open Git Bash then run (per line):
+3. Once you have successfully set up the folder for your virtual environment, open Git Bash then run (per line):
 ```
 cd [path to the thesis folder]
 source .venv/Scripts/activate
