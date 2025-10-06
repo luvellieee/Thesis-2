@@ -7,7 +7,7 @@ do_predict: true
 finetuning_type: lora
 
 ### dataset
-dataset_dir: data
+dataset_dir: Skill-Extraction/data
 eval_dataset: skillspan_test
 template: llama3
 cutoff_len: 2000

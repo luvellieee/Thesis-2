@@ -1,6 +1,7 @@
 torch==2.2.1
 git+https://github.com/hiyouga/LLaMA-Factory.git@v0.8.3
 git+https://github.com/urchade/GLiNER.git@v0.2.9
+# gliner downloaded 0.2.22
 nervaluate==0.2.0
 numpy==1.26.3
 pandas==2.2.1

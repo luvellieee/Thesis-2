@@ -11,7 +11,7 @@ lora_alpha: 128
 lora_dropout: 0.1
 
 ### dataset
-dataset_dir: data
+dataset_dir: Skill-Extraction/data
 dataset: skillspan_train
 template: llama3
 cutoff_len: 2000
