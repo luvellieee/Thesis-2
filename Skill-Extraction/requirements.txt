@@ -1,7 +1,8 @@
 torch==2.2.1
 git+https://github.com/hiyouga/LLaMA-Factory.git@v0.8.3
-git+https://github.com/urchade/GLiNER.git@v0.2.9
-# gliner downloaded 0.2.22
+git+https://github.com/urchade/GLiNER.git@v0.2.22 # from 0.2.9 (which cannot be found)
+peft==0.11.1 # newly added
+transformers==4.41.2 # newly added
 nervaluate==0.2.0
 numpy==1.26.3
 pandas==2.2.1
@@ -14,4 +15,3 @@ jieba==0.42.1
 nltk==3.9.1
 rouge_chinese==1.0.3
 python-Levenshtein==0.25.1
-# also installed transformers==4.56.2 (latest i think) so i'm gonna update this one in a while
