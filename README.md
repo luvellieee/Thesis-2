@@ -29,11 +29,11 @@ source .venv/Scripts/activate
 ```
 
 ### Login to huggingface
-1. Install huggingface
+1. Install huggingface (git bash)
 ```
 pip install huggingface_hub
 ```
-2. To check if you have successfuly installed huggingface, run:
+2. To check if you have successfuly installed huggingface, run (git bash):
 ```
 pip show huggingface_hub
 ```
@@ -51,7 +51,7 @@ from huggingface_hub import login
 login() [tap enter]
 [paste the api key]
 ```
-12. To check if the login was successful, run:
+12. To check if the login was successful, run (git bash):
 ```
 hf auth whoami
 ```
