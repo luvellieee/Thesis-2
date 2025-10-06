@@ -65,8 +65,16 @@ hf auth whoami
 ```
 pip install wandb
 ```
-6. Login in wandb (in bash)
+6. To check if you have successfully installed wandb, run (in bash)
+```
+pip show wandb
+```
+7.Login in wandb (in bash)
 ```
 wandb login
 ```
-7. Paste API key
+8. Paste API key
+9. To check if login was successful, run (in bash):
+```
+wandb login
+```
