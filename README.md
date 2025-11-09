@@ -27,6 +27,12 @@ cd [path to the thesis folder]
 source .venv/Scripts/activate
 ```
 
+### Intall the required dependencies
+run in git bash
+```
+pip install -r requirements.txt
+```
+
 ### Login to huggingface
 1. Install huggingface (git bash)
 ```
