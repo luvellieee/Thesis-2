@@ -23,6 +23,8 @@ preprocessing_num_workers: 16
 output_dir: saves/Meta-Llama-3-8B-Instruct/lora/sft
 logging_steps: 10
 save_steps: 200
+**save_strategy: steps**
+**save_total_limit: 3**
 plot_loss: false
 overwrite_output_dir: true
 
@@ -40,3 +42,4 @@ flash_attn: auto
 optim: adamw_torch
 weight_decay: 0.0
 include_num_input_tokens_seen: true
+**resume_from_checkpoint: true**
